@@ -1,0 +1,16 @@
+<!-- REVISAR EN http://localhost:3000/cliente.html -->
+<html>
+  <head>
+    <script src="falcor.browser.js"></script>
+    <script>
+      var model = new falcor.Model({source: new falcor.HttpDataSource('/model.json') });
+      model.
+        get("greeting").
+        then(function(response) {
+          document.write(response.json.greeting);
+        });
+    </script>
+  </head>
+  <body>
+  </body>
+</html>
