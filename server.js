@@ -27,7 +27,7 @@ var server = app.listen(3000, () => console.log('Server on port 3000'));
 //--------------------------------------------------------
 // CASO DE CONEXIÓN A BD REAL CON MONGODB
 //--------------------------------------------------------
-
+// // npm install mongoose
 // const mongoose = require('mongoose');
 
 // // Conexión a la base de datos MongoDB
